@@ -21,3 +21,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 tap:i18n
 aldeed:autoform
 accounts-password
+twbs:bootstrap

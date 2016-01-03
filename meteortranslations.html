@@ -3,17 +3,19 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <div class="container">
+    <h1>Welcome to Meteor!</h1>
 
-  {{#if currentUser}}
-    {{> forLoggedIn}}
-  {{else}}
-    {{> forLoggedOut}}
-  {{/if}}
+    {{#if currentUser}}
+      {{> forLoggedIn}}
+    {{else}}
+      {{> forLoggedOut}}
+    {{/if}}
+  </div>
 </body>
 
 <template name="forLoggedIn">
-  <a id="logout" href="#">
+  <a id="logout" href="#" class="btn btn-default">
     logout
   </a>
 </template>
